@@ -1,4 +1,4 @@
-import group from "../../assets/media/group.png";
+import group from "../../assets/media/Group.png";
 import box1 from "../../assets/media/box1.png";
 import box2 from "../../assets/media/box2.png";
 import box3 from "../../assets/media/box3.png";
