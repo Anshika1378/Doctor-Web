@@ -60,18 +60,18 @@ function Nav() {
             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-4">
-                  <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:text-white hover:bg-gray-700">
+                  <Link to="#" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:text-white hover:bg-gray-700">
                     About us
-                  </a>
-                  <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-700 hover:text-white">
+                  </Link>
+                  <Link to="#" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-700 hover:text-white">
                     Onboarding
-                  </a>
-                  <a href="/FAQ" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-700 hover:text-white">
+                  </Link>
+                  <Link to="/FAQ" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-700 hover:text-white">
                     FAQ
-                  </a>
-                  <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-700 hover:text-white">
+                  </Link>
+                  <Link to="#" className="rounded-md px-3 py-2 text-sm font-medium text-black hover:bg-gray-700 hover:text-white">
                     Testimonials
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -82,18 +82,18 @@ function Nav() {
         {isMobileMenuOpen && (
           <div className="sm:hidden" id="mobile-menu">
             <div className="space-y-1 px-2 pt-2 pb-3">
-              <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-gray-700 hover:text-white">
+              <Link to="#" className="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-gray-700 hover:text-white">
                 About us
-              </a>
-              <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-gray-700 hover:text-white">
+              </Link>
+              <Link to="#" className="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-gray-700 hover:text-white">
                 Onboarding
-              </a>
-              <a href="/FAQ" className="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-gray-700 hover:text-white">
+              </Link>
+              <Link to="/FAQ" className="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-gray-700 hover:text-white">
                 FAQ
-              </a>
-              <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-gray-700 hover:text-white">
+              </Link>
+              <Link to="#" className="block rounded-md px-3 py-2 text-base font-medium text-black hover:bg-gray-700 hover:text-white">
                 Testimonials
-              </a>
+              </Link>
             </div>
           </div>
         )}
