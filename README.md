@@ -1,3 +1,39 @@
+# Doctor Web Website
+
+A simple and responsive Doctor website built with **React** and **Tailwind CSS**.  
+The website includes two main pages: **Home** and **FAQ** with navigation and smooth redirects.
+
+## Features
+
+- Built using React for a dynamic and component-based UI.
+- Styled with Tailwind CSS for rapid and responsive design.
+- Two pages with navigation:
+  - **Home**: Main landing page.
+  - **FAQ**: Frequently Asked Questions page.
+- Deployed on **Vercel** for fast and reliable hosting.
+
+## Demo
+
+You can check out the live website here:  
+[Your Vercel Deployment URL] (replace this with your actual URL)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 14 or above recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Anshika1378/doctor-web-website.git
+cd doctor-web-website
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
