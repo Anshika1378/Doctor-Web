@@ -1,6 +1,6 @@
-import frame1 from "../../assets/media/frame1.png";
-import frame2 from "../../assets/media/frame2.png";
-import frame3 from "../../assets/media/frame3.png";
+import frame1 from "../../assets/media/Frame1.png";
+import frame2 from "../../assets/media/Frame2.png";
+import frame3 from "../../assets/media/Frame3.png";
 import FrequntlyQuestion from "./Seventh";
 
 function Testinomials(){
